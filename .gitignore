@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+Lib/
+Scripts/
+Include/
+share/
+etc/
+pyvenv.cfg
+chromedriver.exe
+.env
+
