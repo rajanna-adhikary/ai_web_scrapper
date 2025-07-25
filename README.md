@@ -1,30 +1,38 @@
-#  AI Web Scraper
+# 🧠 AI Web Scraper
 
-This is a Streamlit-based AI-powered web scraper that extracts and parses content from websites—even those protected by CAPTCHAs like Amazon. It uses Bright Data’s remote browser to bypass bot detection, cleans the HTML using BeautifulSoup, and parses structured information using LangChain + Ollama.
+A powerful and adaptive Streamlit-based web scraping tool enhanced with AI. It extracts and parses content from websites—including those protected by CAPTCHAs like Amazon—using Bright Data’s remote browser. Clean HTML processing, chunked text handling, and LLM-powered parsing make this a seamless experience for automated data collection and analysis.
 
-##  Features
+---
 
-- Scrapes websites using Bright Data’s CAPTCHA-solving browser
-- Extracts and cleans visible text from the DOM
-- Splits large content into manageable chunks
-- Uses LLMs to parse specific information based on user input
-- Simple Streamlit interface for interaction
+## 🚀 Features
 
-## Tech Stack
+- ✅ Bypasses CAPTCHAs using Bright Data’s stealth browser  
+- 🧼 Cleans and extracts visible text from the DOM  
+- 📦 Automatically splits lengthy content into digestible chunks  
+- 🧠 Parses targeted information using LangChain + Ollama (LLM-powered)  
+- 🎛️ Intuitive Streamlit interface for user-friendly interaction  
 
-- Python
-- Streamlit
-- Selenium (with Bright Data)
-- BeautifulSoup
-- LangChain + Ollama
+---
 
-##  Project Structure
+## 🛠 Tech Stack
+
+| Tool/Library            | Purpose                                |
+|------------------------|----------------------------------------|
+| Python                 | Core scripting language                |
+| Streamlit              | Web interface and interaction          |
+| Selenium + Bright Data | Dynamic scraping with CAPTCHA bypass   |
+| BeautifulSoup          | HTML parsing and cleaning              |
+| LangChain + Ollama     | AI-based contextual parsing            |
+
+---
+
+## 📁 Project Structure
+
+```bash
 ai-web-scraper/
-├── main.py          
-├── Scrape.py        
-├── parse.py         
-├── requirements.txt 
-├── .gitignore       
-└── README.md        
-
-
+├── main.py           # Streamlit app entry point
+├── Scrape.py         # Web scraping logic
+├── parse.py          # LLM-based parsing utilities
+├── requirements.txt  # Python dependencies
+├── .gitignore        # Git exclusions
+└── README.md         # Project documentation
